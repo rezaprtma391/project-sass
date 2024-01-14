@@ -249,5 +249,6 @@ body {
 .footer {
   background-color: #4a5568;
   color: #f7fafc;
-  height: 75px;
+  height: 30px;
+  text-align: center;
 }/*# sourceMappingURL=sass-input.css.map */
