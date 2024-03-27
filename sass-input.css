@@ -42,7 +42,7 @@ body {
 }
 .header {
   background-image: url("image/hand-drawn-people-working-together-illustration_52683-76157.avif");
-  height: 400px;
+  height: 450px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -142,15 +142,17 @@ body {
 .about img {
   border-radius: 100%;
   padding: 20px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
 }
 .about h1 {
   color: #3c366b;
   text-shadow: 1px 1px #f7fafc;
   font-size: 46px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 40px;
 }
 .about h2 {
   color: #e74c3c;
@@ -160,6 +162,7 @@ body {
 .about p {
   color: #4a5568;
   font-size: 20px;
+  margin-top: 30px;
 }
 
 .product {
@@ -247,8 +250,12 @@ body {
 }
 
 .footer {
-  background-color: #4a5568;
-  color: #f7fafc;
-  height: 30px;
+  background-color: #f7fafc;
+  color: #4a5568;
+  height: 50px;
   text-align: center;
 }/*# sourceMappingURL=sass-input.css.map */
+
+.isi-footer {
+ margin-top: 50px;
+}
